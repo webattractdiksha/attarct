@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 14px rgba(0,0,0,0.6);
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo .image{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #825a62;
+}
+.logo .text{
+    margin: 1em;
+    color: #825a62;
+}
+.logo h5{
+    font-size: 20px;
+    font-weight: 300;
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    margin: 0 20px;
+    color: black;
+    font-size: 1em;
+    transition: all .6s;
+}
+
+.navlist li{
+    transition: all .6s;
+}
+
+.navlist li:hover{
+    transform: translatey(-6px);
+}
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+   
+}
+.page1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.page1-content{
+    height: 100%;
+    width: 50%;
+    position: relative;
+ padding: 230px 10%;
+}
+.page1-content h1{
+ color: #825a62;
+ font-weight: 300;
+ text-transform: uppercase;
+}
+.page1-content h2{
+    color:white;
+    font-weight: 300;
+    margin-top: 20PX;
+}
+.page1-content h3{
+    font-weight: 200;
+    margin-top: 20px;
+}
+.box{
+    height: 460px;
+    width: 1000px;
+    background-color: #fbf5f3;
+    margin-left: 10%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.box-text{
+    padding: 50px;
+}
+.box-text h1{
+color: #825a62;
+font-weight: 500;
+}
+#pist{
+    margin-top: 20px;
+    line-height: 20px;
+}
+.box-text h3{
+color:#825a62;
+margin-top: 20px ;
+line-height: 26px;
+font-weight: 300;
+}
+#p2,#p3{
+    font-size: 12px;
+    font-weight:lighter;
+    margin-top: 20px;
+}
+.box-text h4{
+    color: #825a62;
+    margin-top: 30px;
+}
+.box .im{
+    padding-top: 70px;
+    margin-left: 60px;
+}
+.box .im img{
+    border-radius: 50px;
+    width: 250px;
+    height: 300px;
+}
+.services{
+    height: 650px;
+    width: 100%;
+    margin-top: 8%;
+    background-color: #fbf5f3;
+}
+.services h1{
+    text-align: center;
+    padding-top: 40px;
+    color: #825a62;
+}
+.services h5{
+    text-align: center;
+    color: #825a62;
+}
+.imagebox{
+    height: 500px;
+    width: 1000px;
+    margin-left: 15%;
+    margin-top: 3%;
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+column-gap: 2em;
+grid-template-rows: repeat(2,1fr);
+row-gap: 2em;
+}
+
+.stories{
+    height: 500px;
+    width: 100%;
+    margin-top: 8%;
+}
+.tex{
+    margin: 20px;
+    text-align: center;
+}
+.tex h1{
+    color: #825a62;
+    font-size: 2em;
+    font-weight: 300;
+}
+.tex h5{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 200;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.card .ist{
+    height: 200px;
+    width: 300px;
+    background-color: #fbf5f3;border-radius: 6px;
+    padding: 30px;
+}
+.ist img{
+    height: 50px;
+    width: 50px;
+}
+#outer{
+    text-align: center;
+    margin-top: 18px;
+}
+span{
+    font-weight: 800;
+}
+.both{
+    display: flex;
+    align-items: center;
+}
+.both h4{
+    margin-left: 10px;
+}
+#outer2{
+    margin-top: 18px;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.card .pic{
+    height: 200px;
+    width: 300px;
+}
+.pic img{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+}
+.gallery{
+    background-color: #f5ebe8;
+    margin-top: 3%;
+    height: 400px;
+}
+.gallery h1{
+    text-align: center;
+   padding-top: 30px;
+   font-size: 30px;
+   font-weight: 300;
+   text-transform: uppercase;
+   color: #825a62;
+}
+.blog{
+    height: 300px;
+    width: 100%;
+
+}
+.pickeuparkacontent img{
+    height: 30px;
+    width: 50px;
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #b37d88e3;
+    margin-top: 3%;
+    display: flex;
+    gap: 6rem;
+}
+footer img{
+    height: 160px;
+    width: 280px;
+    padding-left: 170px;
+    padding-top: 40px;
+}
+.con{
+    color: white;
+    padding-top: 40px ;
+    line-height: 20px;
+}
+#t1{
+margin-top: 20px;
+}
+#t2{
+    margin-top: 20px;
+}
+#mai
+{  font-size: 30px;
+    font-weight: 100;
+ }
+.copyright{
+    color: #825a62;
+    text-align: center;
+}
+hr{
+    margin-top: 5px;
+    width: 900px;
+}
+.stars{
+    color: orange;
+    margin: 5px;
+}
+#c{
+    color: #825a62;
+}
+.pic h4{
+    font-size: 17px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+.pickeuparkacontent{
+    position: relative;
+}
+.pickeuparkacontent img{
+    margin-top: 25%;
+    margin-left: 14%;
+}
+.pickeuparkacontent .logo img{
+    margin-top: 20%;
+    margin-left: 2%;
+}
+.pickeuparkacontent #btn{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-top: 30%;
+}
+
+@media (min-width:500px) {
+    .services{
+        width: 1500px;
+    }
+}
+@media (min-width:1300px) {
+    header .menu{
+        display: block;
+    }
+   
+}
+
+@media (max-width:1300px) {
+    header .navlist,.menu{
+        display: none;
+    }
+   
+}
+
+@media (min-width:700px) {
+    .services .imagebox{
+        display: grid;
+    }
+    
+}
+
+
+@media (max-width:600px)  {
+    .services .imagebox{
+        display: block;
+    }
+    
+    .imagebox .ist2 img {
+        width: 200px;
+        height: 100px;
+        margin-left: 15%;
+    }
+    .services h1,h5{
+        margin-right: 27%;
+    }
+    .stories .card{
+      display: block;
+       margin-left: 30%;
+       margin-bottom: 10px;
+
+    }
+    .stories .tex h1 {
+        margin-left: 16rem;
+    }
+    .stories #outer,#outer2{
+        margin-left: 16rem;
+        margin-top: 20px;
+    }
+    .stories .tex h5 {
+        margin-left: 19rem;
+    }
+    .about{
+        margin: 0;
+    }
+    .about .box{
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .box-text{
+        margin: 10px;
+        padding: 0;
+    }
+    .box .im{
+        margin-top: 50px;
+        padding: 0;
+        margin-right: 30px;
+    }
+    .im img{
+        width: 200px;
+    }
+}
