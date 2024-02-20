@@ -329,7 +329,11 @@ hr{
     border-radius: 20px;
     margin-top: 30%;
 }
-
+.upper button{
+    border: none;
+    outline: none;
+    color: #825a62;
+}
 @media (min-width:500px) {
     .services{
         width: 1500px;
